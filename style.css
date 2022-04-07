@@ -1,0 +1,151 @@
+body{
+	background-color: #faf0e6;
+}
+
+@keyframes colorChange{
+	from{background-color: #4D3024}
+	to{background-color: #9C6C4A}
+	from{color: #9C6C4A}
+	to{color: #4D3024}
+}
+
+@keyframes colorChangeTwo{
+	from{background-color: #B58D6E}
+	to{background-color: #4D3024}
+	from{color: #4D3024}
+	to{color: #B58D6E}
+}
+
+@keyframes colorChangeThree{
+	from{background-color: #ceb39e}
+	to{background-color: #4D3024}
+	from{color: #4D3024}
+	to{color: #ceb39e}
+}
+
+
+
+title{
+	color: #4D3024;
+	background-color: #9C6C4A;
+	font-family: "Playfair Display", serif;
+}
+
+h1{
+	color: #4D3024;
+	text-align: center;
+	background-color: #B58D6E;
+	font-family: "Playfair Display", serif;
+	animation-name: colorChange;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+h2{
+	background-color: #B58D6E;
+	text-align: center;
+	color: #4D3024;
+	font-family: "Playfair Display", serif;
+	animation-name: colorChangeTwo;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+h3{
+	background-color: #ceb39e;
+	text-align: center;
+	color: #4D3024;
+	font-family: "Playfair Display", serif;
+	animation-name: colorChangeThree;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+h4{
+	color: #4D3024;
+	font-family: "Special Elite", display;
+	animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+}
+
+p, li, a{
+	color: #4D3024;
+	font-family: "Special Elite", display;
+	animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+}
+
+@keyframes typing{
+	from{width: 0}
+	to{width:  100%}
+}
+
+@keyframes blinking-cursor{
+	from, to{border-color: transparent}
+	50%{border-color:  pink;}
+}
+
+a:hover{
+	color: #9C6C4A;
+}
+
+a:active{
+	background-color: #4D3024;
+}
+
+img{
+	border-color: #B58D6E;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 10%;
+}
+
+#image-potential{
+float: left;
+}
+
+#forget-about-goals{
+	clear: left;
+}
+
+#pageEnd{
+text-align: center;
+}
+
+#disclaimer{
+	text-align: center;
+}
+
+.center{
+	display:  block;
+	margin-left:  auto;
+	margin-right: auto;
+}
+
+.button {
+  background-color: #9C6C4A;
+  border-color: #B58D6E;
+  border-width: 5px;
+  color: #4D3024;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover
+{
+text-color: #9C6C4A;	
+background-color: #4D3024;
+}
+
+.container { 
+  height: 70px;
+  position: relative;
+  border: 3px #9C6C4A; 
+  text-align: center;
+}
+
+
